@@ -12,10 +12,25 @@ body {
     margin: 0 auto;
   }
 
-  .card{
+  #card_head{
     background: #F2DEBA;
     border-radius: 10px;
-    margin: 100px 0 100px 0;
+    margin: 60px 0 60px 0;
+    padding: 20px 20px 50px 20px;
+
+  }
+  .card{
+    background: #F2DEBA;
+    text-align: left;
+    border-radius: 10px;
+    margin: 60px 0 60px 0;
+    padding: 20px 20px 50px 20px;
+  }
+
+  .card_bottom{
+    background: #F2DEBA;
+    border-radius: 10px;
+    margin: 60px 0 60px 0;
     padding: 20px 20px 50px 20px;
   }
 
@@ -32,12 +47,12 @@ body {
   .class_a {
     margin: 70px 0px 0px 0;
   }
-  .card > ul > li{
+  .card_bottom > ul > li{
     display: inline-block;
     padding: 0px 20px;
   }
 
-  .card >ul {
+  .card_bottom >ul {
     list-style: none;
     padding-left: 0px;
   }
